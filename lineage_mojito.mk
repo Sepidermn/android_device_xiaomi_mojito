@@ -16,6 +16,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
+RISING_MAINTAINER="Zeyy"
+RISING_PACKAGE_TYPE := "VANILLA_AOSP"
+WITH_GMS := false
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
@@ -23,5 +29,9 @@ PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Qualcomm-SDM678" \
+    RisingMaintainer="Zeyy|ゼイ"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
