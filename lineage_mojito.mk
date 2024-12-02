@@ -31,6 +31,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="Qualcomm-SDM678" \
-    RisingMaintainer="Zeyy|ゼイ"
+    RisingMaintainer="Zeyyゼイ"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
