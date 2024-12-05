@@ -14,6 +14,12 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some LineageOS stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Some Build Flags
+MISTOS_MAINTAINER="Zeyyゼイ"
+TARGET_ENABLE_BLUR := true
+WITH_GMS := false
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
 PRODUCT_DEVICE := mojito
