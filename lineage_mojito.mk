@@ -17,8 +17,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Default is COMMUNITY. official builds are OFFICIAL
-CUSTOM_BUILD_TYPE := COMMUNITY
+# Extra apps are included by default.
+# Set false to disable it
+TARGET_INCLUDE_EXTRA_APPS := false
 
 # Set your name for display in banner.
 CUSTOM_MAINTAINER := Zeyy
