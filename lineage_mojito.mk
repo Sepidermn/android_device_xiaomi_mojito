@@ -17,7 +17,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 RISING_MAINTAINER="Zeyy"
-RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 WITH_GMS := false
 TARGET_ENABLE_BLUR := true
 
