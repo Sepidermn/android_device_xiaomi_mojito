@@ -15,7 +15,9 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1080 
+WITH_GMS := true
+TARGET_INCLUDE_NEXUS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
