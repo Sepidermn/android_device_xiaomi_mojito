@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_mojito.mk
+    $(LOCAL_DIR)/orion_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_mojito-user \
-    bliss_mojito-userdebug \
-    bliss_mojito-eng
+    orion_mojito-user \
+    orion_mojito-userdebug \
+    orion_mojito-eng
