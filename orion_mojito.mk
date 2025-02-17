@@ -19,7 +19,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 ORION_MAINTAINER := Zeyy
 ORION_MAINTAINER_LINK := https://t.me/zeydanne
 ORION_BUILD_TYPE := Unofficial
-ORION_GAPPS := false
+ORION_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := orion_mojito
