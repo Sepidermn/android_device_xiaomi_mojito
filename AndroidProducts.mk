@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_mojito.mk
+    $(LOCAL_DIR)/voltage_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_mojito-user \
-    bliss_mojito-userdebug \
-    bliss_mojito-eng
+    voltage_mojito-user \
+    voltage_mojito-userdebug \
+    voltage_mojito-eng
