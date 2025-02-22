@@ -16,7 +16,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GMS := false
+# Define rear camera specs 
+AXION_CAMERA_REAR_INFO := 48,8  
+# Define front camera specs
+AXION_CAMERA_FRONT_INFO := 13  
+# Maintainer name 
+AXION_MAINTAINER := Zeyy
+# Processor name 
+AXION_PROCESSOR := Snapdragon_678
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
