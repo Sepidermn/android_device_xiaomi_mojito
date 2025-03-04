@@ -24,6 +24,8 @@ AXION_CAMERA_FRONT_INFO := 13
 AXION_MAINTAINER := Zeyy
 # Processor name 
 AXION_PROCESSOR := Snapdragon_678
+# include ViPER4AndroidFX
+TARGET_INCLUDE_VIPERFX := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
