@@ -26,6 +26,9 @@ AXION_MAINTAINER := Zeyy
 AXION_PROCESSOR := Snapdragon_678
 # include ViPER4AndroidFX
 TARGET_INCLUDE_VIPERFX := true
+# Define small and big core groups
+AXION_CPU_SMALL_CORES := 0,1,2,3,4,5
+AXION_CPU_BIG_CORES := 6,7
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
