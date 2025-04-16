@@ -17,6 +17,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := false
+HORIZON_MAINTAINER := Zeyy
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
